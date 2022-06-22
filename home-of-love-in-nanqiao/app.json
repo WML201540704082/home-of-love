@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/index/helpNotice/helpNotice",
+    "pages/index/helpAdviser/helpAdviser",
+    "pages/index/communityHelp/communityHelp",
+    "pages/index/newDynamic/newDynamic"
+  ],
+  "navigateToMiniProgramAppIdList": [
+    "wx34b0738d0eef5f78"
+  ],
+  "permission": {
+    "scope.userLocation": {
+    "desc": "你的位置信息将用签到"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "南桥有爱之家",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/index.png",
+        "selectedIconPath": "icons/index_selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "icons/my.png",
+        "selectedIconPath": "icons/my_selected.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

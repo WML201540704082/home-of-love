@@ -1,0 +1,42 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "最新动态",
+          "pathName": "pages/index/newDynamic/newDynamic",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "救助顾问(志愿者)注册",
+          "pathName": "pages/index/helpAdviser/helpAdviser",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "救助公告栏",
+          "pathName": "pages/index/helpNotice/helpNotice",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "社区救助公益资源",
+          "pathName": "pages/index/communityHelp/communityHelp",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

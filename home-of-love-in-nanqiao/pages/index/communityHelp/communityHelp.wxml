@@ -1,0 +1,25 @@
+<view class="helpNotice">
+  <view class="helpNotice_item" wx:for="{{companyList}}">
+    <view class="item_top">
+      <view class="top_left">{{item.index}}</view>
+      <view class="top_middle">
+        <view class="middle_top">{{item.name}}</view>
+        <view class="middle_bottom">
+          <text wx:if="{{item.content}}">服务内容:</text>
+          {{item.content}}
+        </view>
+      </view>
+      <!-- <view class="top_right">
+        <view class="right_status">{{item.status}}</view>
+      </view> -->
+    </view>
+    <view class="item_bottom">
+      <view class="bottom_left">
+        <image mode="widthFix" src="{{loction_src}}"></image>
+        <text class="bottom_address">{{item.address}}</text>
+      </view>
+      <view class="bottom_button" bindtap="apply">申请</view>
+    </view>
+  </view>
+  <button bindtap="provide">我要提供公益资源</button>
+</view>

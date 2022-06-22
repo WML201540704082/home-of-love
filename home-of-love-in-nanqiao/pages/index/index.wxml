@@ -1,0 +1,36 @@
+<view class="nqyazj_index">
+  <!-- 轮番图 -->
+  <!-- <view class="index_swiper">
+    <swiper>
+      <swiper-item wx:for="{{swiperList}}" wx:key="image_id">
+        <navigator>
+          <image mode="widthFix" src="{{item.image_src}}" bindtap="jumpBar_newDynamic"></image>
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view> -->
+  <view class="top_image" bindtap="jumpBar_newDynamic">
+    <view class="top_top">
+      <view class="top_top_top">“社区救助顾问”</view>
+      <view class="top_top_bottom">项目简介</view>
+    </view>
+    <view class="top_bottom">
+      <view class="bottom_left">社区和谐，关爱为基 困有所助，爱满南桥</view>
+      <view class="bottom_right">CARE FOR THE OLDHIGH MORAL CHARACTER</view>
+    </view>
+  </view>
+  <view class="jumpBar">
+    <view class="helpNotice" bindtap="jumpBar_helpNotice">救助公告栏</view>
+    <view class="helpNoticeBelow">
+      <view class="communityHelp" bindtap="jumpBar_communityHelp">
+        <view class="communityHelp_content_top">社区救助</view>
+        <view class="communityHelp_content_bottom">公益资源</view>
+      </view>
+      <view class="helpAdviser" bindtap="jumpBar_helpAdviser">
+        <view class="helpAdviser_top">救助顾问</view>
+        <view class="helpAdviser_middle">(志愿者)</view>
+        <view class="helpAdviser_bottom">注册</view>
+      </view>
+    </view>
+  </view>
+</view>

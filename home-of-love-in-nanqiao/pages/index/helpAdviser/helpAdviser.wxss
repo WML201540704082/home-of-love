@@ -1,0 +1,20 @@
+.adviser_page{
+  height: 1500rpx;
+  width: 100%;
+  background-color: rgb(228, 228, 228);
+}
+.helpAdviser{
+  padding: 0 30rpx;
+}
+.phone{
+  margin-top: 60rpx;
+  font-size: 32rpx;
+  color: rgb(160, 159, 158);
+}
+.bottom_button{
+  width: 92%!important;
+  color: white;
+  background-color: #eb4450;
+  position:fixed;
+  bottom:40rpx;
+}

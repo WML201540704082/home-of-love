@@ -1,0 +1,26 @@
+<view class="helpNotice">
+  <view class="helpNotice_item" wx:for="{{noticeList}}">
+    <view class="item_top">
+      <view class="top_left">{{item.index}}</view>
+      <view class="top_middle">
+        <view class="middle_top">{{item.name}}</view>
+        <view class="middle_bottom">
+          <text wx:if="{{item.remark}}">备注:</text>
+          {{item.remark}}
+        </view>
+      </view>
+      <view class="top_right">
+        <view class="right_status" style="background-color:{{item.status == '待救助' ? '#eb4450' : ''}}">{{item.status}}</view>
+      </view>
+    </view>
+    <view class="item_bottom">
+    <!--  bindtap="addressClick" data-address="{{item.address}}" -->
+      <view class="bottom_left">
+        <image mode="widthFix" src="{{loction_src}}"></image>
+        <text class="bottom_address">{{item.address}}</text>
+      </view>
+      <view wx:if="{{item.status == '待救助'}}" class="bottom_button" bindtap="apply">申请</view>
+    </view>
+  </view>
+  <button bindtap="publish">我要发布</button>
+</view>

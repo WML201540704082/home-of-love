@@ -1,0 +1,27 @@
+<view class="adviser_page">
+<view class="helpAdviser">
+<text space="ensp">
+一、社区救助顾问的基本条件
+</text>
+<text space="ensp">
+1、年满18周岁，具有完全的民事行为能力、民事责任能力
+2、乐于奉献，热爱公益事业，能够利用业余时间参与公益活动
+3、身体健康，吃苦耐劳，能够按照社区救助项目的工作要求开展服务
+4、遵纪守法，无违纪行为，具有较强的社会公德意识
+5、有志愿者活动时间经验者优先
+</text>
+<text space="ensp">
+二、社区救助顾问的服务内容
+</text>
+<text space="ensp">
+南桥镇社区救助顾问（志愿者）的服务内容主要包涵：
+1、政策引导服务
+2、资源链接服务
+3、心理疏导服务
+4、能力提升服务
+5、社会融入服务等等
+</text>
+<view class="phone">若有疑问请拨打咨询电话：15316722336</view>
+<button class="bottom_button" bindtap="applicationRegister">申请注册</button>
+</view>
+</view>

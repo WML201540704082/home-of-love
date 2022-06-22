@@ -1,0 +1,106 @@
+/* .index_swiper{
+  width: 100%;
+  height: 340rpx;
+}
+image{
+  width: 100%;
+} */
+.top_image{
+  width: 100%;
+  height: 360rpx;
+  background-color: #ee3642;
+  color: white;
+}
+.top_top{
+  width: 100%;
+  height: 240rpx;
+  font-size: 75rpx;
+  font-weight: bold;
+}
+.top_top_top{
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+  padding-top: 20rpx;
+}
+.top_top_bottom{
+  height: 150rpx;
+  line-height: 120rpx;
+  text-align: center;
+}
+.top_bottom{
+  color: rgb(242, 250, 250);
+  font-size: 26rpx;
+}
+.bottom_left{
+  width: 32%;
+  height: 0rpx;
+  margin-left: 100rpx;
+}
+.bottom_right{
+  float: right;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-right: 20rpx;
+}
+.jumpBar{
+  margin: 50rpx;
+  margin-top: 150rpx;
+  font-size: 32rpx;
+  color: white;
+}
+/* 救助公告栏 */
+.helpNotice{
+  width: 100%;
+  height:110rpx;
+  line-height: 110rpx;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(172, 171, 171);
+}
+.helpNoticeBelow{
+  margin-top: 50rpx;
+  display: flex;
+}
+/* 社区救助公益资源 */
+.communityHelp{
+  width: 50%;
+  height:250rpx;
+  line-height: 250rpx;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(172, 171, 171);
+}
+.communityHelp_content_top{
+  height:50rpx;
+  text-align: center;
+}
+.communityHelp_content_bottom{
+  text-align: center;
+}
+/* 救助顾问 */
+.helpAdviser{
+  width: 50%;
+  height: 250rpx;
+  line-height: 250rpx;
+  margin-left: 40rpx;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(172, 171, 171);
+}
+.helpAdviser_top{
+  height:50rpx;
+  text-align: center;
+}
+.helpAdviser_middle{
+  height:50rpx;
+  text-align: center;
+}
+.helpAdviser_bottom{
+  height:250rpx;
+  text-align: center;
+}
